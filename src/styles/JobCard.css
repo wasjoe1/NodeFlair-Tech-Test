@@ -1,0 +1,173 @@
+.job-card {
+	max-width: 420px;
+	border-radius: 0.6rem;
+	margin: 0.5rem;
+	background-color: white;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.job-card:hover {
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-0.2rem)
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.top-container {
+	width: 420px;
+	justify-content: space-around;
+	display: inline-flex;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+.top-left-container {
+	display: inline;
+	max-width: 10%;
+	align-items: flex-start;
+}
+
+.organisation-picture {
+	width: 45px;
+	height: 45px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+.top-middle-container {
+	display: inline;
+	justify-content: end;
+}
+
+.organisation-name {
+	display: inline-block;
+	font-size: 0.9rem;
+	padding-right: 0.6rem;
+}
+
+.ratings-container {
+	display: inline-block;
+}
+
+.ratings {
+	font-size: 0.9rem;
+}
+
+.star-icon {
+	padding-bottom: 0;
+}
+
+.job-title {
+	font-size: 1rem;
+	font-weight: bold;
+	/* max-width: 300px; Set a maximum width for the <p> tag */
+	overflow-wrap: break-word; /* Allow text to wrap within the width */
+}
+
+.job-posting-date-time {
+	display: inline-block;
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #1fc76a;
+}
+
+.job-location-container {
+	display: inline-block;
+}
+
+.job-location {
+	font-size: 0.9rem;
+	color: grey;
+}
+
+.job-location-icon {
+	color: grey;
+}
+
+/* EST */
+.EST-container {
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	padding-left: 1rem;
+}
+
+.EST {
+	font-size: 0.9rem;
+	background-color: #f2f2f2;
+	padding-block: 0.3rem;
+	padding-inline: 0.5rem;
+	border-radius: 0.3rem;
+}
+
+.job-monthly-pay-range-container {
+	display: inline-flex;
+}
+
+/* job type */
+.job-type-container {
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	height: 3vh;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+.top-right-container {
+	display: inline;
+}
+
+.job-type {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #1fc76a;
+	background-color: #c9fbe0;
+	padding-block: 0.3rem;
+	padding-inline: 0.5rem;
+	border-radius: 0.3rem;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* line break */
+.line-break {
+	height: 1px;
+	background-color: #ccc;
+	border: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* bottom container */
+.bottom-container {
+	max-width: 420px;
+	display: flex;
+	justify-content: baseline;
+}
+
+/* skill */
+.skill-container {
+	display: inline-flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	height: 3vh;
+	margin: 0.1rem;
+}
+
+.skill {
+	font-size: 0.9rem;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	color: grey;
+	padding-block: 0.3rem;
+	padding-inline: 0.5rem;
+	border-radius: 0.3rem;
+}
+
+.hide {
+	display: none;
+}
+
+.selected {
+	border: 2px solid #1fc76a;
+}

@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './styles/App.css';
+import JobListings from './components/JobListings';
+import JobDescription from './components/JobDescription';
+
 
 function App() {
+  const [displayedJobIndex, setDisplayedJobIndex] = useState(null)
+  const [displayedJobDescription, setDisplayedJobDescription] = useState("")
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <div className='nodeflair-ui-container'>
+        <JobListings displayedJobIndex={displayedJobIndex} setDisplayedJobIndex={setDisplayedJobIndex} setDisplayedJobDescription={setDisplayedJobDescription}></JobListings>
+        <JobDescription displayedJobIndex={displayedJobIndex} displayedJobDescription={displayedJobDescription}></JobDescription>
+      </div>
+      
     </div>
   );
 }

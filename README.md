@@ -6,4 +6,4 @@ I used Functional components in React to build the various UI elements and style
 Data was hardcoded and retrieved from a data file.
 
 ## Website
-The website is live [here](https://vercel.com/wasjoe1/node-flair-tech-test/8KGaYiDrbMbMCaQgFp3uk86fhrNE)
+The website is live [here](https://node-flair-tech-test-aqr0zop1s-wasjoe1.vercel.app/)

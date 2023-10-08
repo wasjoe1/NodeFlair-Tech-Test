@@ -1,6 +1,6 @@
 ### NodeFlair test UI
 This is the frontend done up by me trying to re-create the various web components of a job listing page on nodeflair for their technical test.
-(to be frank, not the best UI done by me and its can be better...)
+(to be frank, not the best UI done by me and it can be better...)
 
 ## Process
 I used Functional components in React to build the various UI elements and styled them up with corresponding CSS files.
